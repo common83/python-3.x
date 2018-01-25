@@ -1,0 +1,2 @@
+1.        value = "11|--|--|--|--|--|--|--|--|--||"
+        self.assertEqual(2, who_object.result_function(value))
