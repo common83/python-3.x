@@ -7,6 +7,8 @@ class count_unit(unittest.TestCase):
 
         value = "12346302"
         self.assertEqual(5, who_object.result_function(value))
+        value = "mmlam"
+        self.assertEqual(3, who_object.result_function(value))
 
         self.assertEqual(20, who_object.result_function("1222345678909998765434421"))
         self.assertEqual(7, who_object.result_function("1223505252"))

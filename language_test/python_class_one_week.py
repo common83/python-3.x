@@ -18,6 +18,14 @@ def cook():
             if not (x == y):
                 print('{}{}'.format(diet[x], diet[y]))
 
+
+
+def color_tree(length):
+
+
+
+
+
 if __name__ == "__main__":
     # cook()
     five_corner_start()

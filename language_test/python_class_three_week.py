@@ -1,4 +1,7 @@
 import  sys
+import random
+import math
+import time
 
 def digit():
     z = 1.23e-4 + 5.6e+89j
@@ -44,5 +47,38 @@ def tuple_test():
     print("index tuple",t1[1],t1[2:])
     print("index tuple",t1+t2, 3*t2)
 
-#string_operator()
-tuple_test()
+def test_random():
+    print(random.random())
+    print(random.uniform(1, 10))
+    print(random.randint(1, 10))
+    print(random.randrange(1, 10, 3))
+    ra = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    print(random.choice(ra))
+    random.shuffle(ra)
+    print(ra)
+    print(random.sample(ra,4))
+
+    random.seed(10)
+    print(random.uniform(1, 10))
+    print(random.uniform(1, 10))
+    random.seed(10)
+    print(random.uniform(1, 10))
+    print(random.uniform(1, 10))
+
+def test_pi():
+    DARTs = 200000000
+    hits = 0
+    time.clock()
+    for i in range(0,DARTs):
+        x, y = random.random(), random.random()
+        dist = math.sqrt(x**2 + y**2)
+        if dist <= 1.0:
+            hits = hits + 1
+    pi = 4 * (hits/DARTs)
+    print("Pi的值是 %s" % pi)
+    print("程序运行时间 %-5.5ss" % time.clock())
+
+# string_operator()
+# tuple_test()
+# test_random()
+test_pi()

@@ -4,7 +4,7 @@ class kevindi(object):
     temp_list = []
     my_test = 0;
 
-    def cac(self,value,count):
+    def cac(self, value, count):
         return 0
 
     def result_function(self, value):

@@ -5,8 +5,8 @@ import data_everyone.kevindi
 class count_unit(unittest.TestCase):
     def public_same(self, who_object):
 
-        value = [1]
-        self.assertEqual(0, who_object.result_function(value))
+        param_value = [10, 5, 1, 2, 3, 6, 7, 9, 11, 22, 44, 50]
+        self.assertEqual(9, who_object.result_function(param_value))
 
     def test_kevindi(self):
         who_kevindi = data_everyone.kevindi.kevindi()
