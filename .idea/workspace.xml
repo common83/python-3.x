@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2517bc9c-6322-42de-892d-f4a9499b3fea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/language_test/list_operate.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/language_test/python_class_four_week.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/language_test/string_operate.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TDD/circle string/tdd_count/count_unit.py" afterPath="$PROJECT_DIR$/TDD/circle string/tdd_count/count_unit.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TDD/circle string/tdd_count/data_everyone/kevindi.py" afterPath="$PROJECT_DIR$/TDD/circle string/tdd_count/data_everyone/kevindi.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TDD/demo/tdd_count/count_unit.py" afterPath="$PROJECT_DIR$/TDD/demo/tdd_count/count_unit.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TDD/demo/tdd_count/data_everyone/kevindi.py" afterPath="$PROJECT_DIR$/TDD/demo/tdd_count/data_everyone/kevindi.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_class_one_week.py" afterPath="$PROJECT_DIR$/language_test/python_class_one_week.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_class_three_week.py" afterPath="$PROJECT_DIR$/language_test/python_class_three_week.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_class_two_week.py" afterPath="$PROJECT_DIR$/language_test/python_class_two_week.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TDD/bowlinggameOO/tdd_count/count_unit.py" afterPath="$PROJECT_DIR$/TDD/bowlinggameOO/tdd_count/count_unit.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TDD/bowlinggameOO/tdd_count/data_everyone/kevindi.py" afterPath="$PROJECT_DIR$/TDD/bowlinggameOO/tdd_count/data_everyone/kevindi.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TDD/bowlinggameOO/tdd_count/instructions.txt" afterPath="$PROJECT_DIR$/TDD/bowlinggameOO/tdd_count/instructions.txt" />
     </list>
     <ignored path="python 3.x.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,21 +24,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="kevindi.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="kevindi.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TDD/bowlinggameOO/tdd_count/data_everyone/kevindi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+            <state relative-caret-position="283">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="count_unit.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="instructions.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TDD/bowlinggameOO/tdd_count/instructions.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="count_unit.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TDD/bowlinggameOO/tdd_count/count_unit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="175">
+              <caret line="7" column="48" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="48" />
               <folding>
                 <element signature="e#28#43#0" expanded="true" />
               </folding>
@@ -102,7 +103,9 @@
         <option value="$PROJECT_DIR$/TDD/poststation/tdd_count/count_unit.py" />
         <option value="$PROJECT_DIR$/language_test/list_operate.py" />
         <option value="$PROJECT_DIR$/TDD/poststation/tdd_count/data_everyone/kevindi.py" />
+        <option value="$PROJECT_DIR$/TDD/bowlinggameOO/tdd_count/instructions.txt" />
         <option value="$PROJECT_DIR$/TDD/bowlinggameOO/tdd_count/data_everyone/kevindi.py" />
+        <option value="$PROJECT_DIR$/TDD/bowlinggameOO/tdd_count/count_unit.py" />
       </list>
     </option>
   </component>
@@ -231,6 +234,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python 3.x" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python 3.x" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TDD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bowlinggame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tdd_count" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -254,46 +279,7 @@
       <recent name="D:\aios\python 3.x\language_test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.kevindi">
-    <configuration default="false" name="count_unit" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TDD/bowlinggame/tdd_count" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python 3.x" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TDD/bowlinggame/tdd_count/count_unit.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittest count_unit.test_haliluyafu" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TDD/bowlinggame/tdd_count" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python 3.x" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TDD/bowlinggame/tdd_count/count_unit.py" />
-      <option name="CLASS_NAME" value="count_unit" />
-      <option name="METHOD_NAME" value="test_haliluyafu" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests in count_unit">
     <configuration default="false" name="Unittest count_unit.test_mulcyang" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -348,6 +334,45 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TDD/poststation/tdd_count/data_everyone/kevindi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="kevindi (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TDD/bowlinggameOO/tdd_count/data_everyone" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python 3.x" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TDD/bowlinggameOO/tdd_count/data_everyone/kevindi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in count_unit" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TDD/bowlinggameOO/tdd_count" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python 3.x" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TDD/bowlinggameOO/tdd_count/count_unit.py" />
+      <option name="CLASS_NAME" value="count_unit" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -485,19 +510,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.count_unit" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest count_unit.test_haliluyafu" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest count_unit.test_mulcyang" />
-      <item index="3" class="java.lang.String" itemvalue="Python.list_operate" />
-      <item index="4" class="java.lang.String" itemvalue="Python.kevindi" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest count_unit.test_mulcyang" />
+      <item index="1" class="java.lang.String" itemvalue="Python.list_operate" />
+      <item index="2" class="java.lang.String" itemvalue="Python.kevindi" />
+      <item index="3" class="java.lang.String" itemvalue="Python.kevindi (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in count_unit" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.kevindi" />
-        <item index="1" class="java.lang.String" itemvalue="Python.list_operate" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest count_unit.test_mulcyang" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest count_unit.test_haliluyafu" />
-        <item index="4" class="java.lang.String" itemvalue="Python.count_unit" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in count_unit" />
+        <item index="1" class="java.lang.String" itemvalue="Python.kevindi (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.kevindi" />
+        <item index="3" class="java.lang.String" itemvalue="Python.list_operate" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest count_unit.test_mulcyang" />
       </list>
     </recent_temporary>
   </component>
@@ -533,6 +558,9 @@
     <history-entry file="Unittest_count_unit_test_mulcyang - 2018.01.22 at 10h 04m 37s.xml">
       <configuration name="Unittest count_unit.test_mulcyang" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_count_unit - 2018.01.25 at 16h 06m 33s.xml">
+      <configuration name="Unittests in count_unit" configurationId="tests" />
+    </history-entry>
     <history-entry file="Unittests_in_count_unit_(1) - 2018.01.22 at 09h 54m 29s.xml">
       <configuration name="Unittests in count_unit (1)" configurationId="tests" />
     </history-entry>
@@ -542,12 +570,9 @@
     <history-entry file="Unittests_in_count_unit_(4) - 2018.01.22 at 09h 54m 07s.xml">
       <configuration name="Unittests in count_unit (4)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_count_unit_(5) - 2018.01.22 at 01h 23m 26s.xml">
-      <configuration name="Unittests in count_unit (5)" configurationId="tests" />
-    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.210625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -599,14 +624,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TDD/bowlinggame/tdd_count/data_everyone/kevindi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1775">
-          <caret line="71" column="32" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/language_test/list_operate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -902,14 +919,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TDD/bowlinggame/tdd_count/instructions.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TDD/demo/tdd_count/data_everyone/kevindi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -955,7 +964,7 @@
         <state relative-caret-position="200">
           <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
           <folding>
-            <element signature="e#28#43#0" expanded="true" />
+            <element signature="e#28#43#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -968,21 +977,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TDD/bowlinggameOO/tdd_count/count_unit.py">
+    <entry file="file://$PROJECT_DIR$/TDD/bowlinggame/tdd_count/instructions.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#28#43#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-925">
+          <caret line="8" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TDD/bowlinggameOO/tdd_count/instructions.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TDD/bowlinggameOO/tdd_count/data_everyone/kevindi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        <state relative-caret-position="283">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TDD/bowlinggameOO/tdd_count/count_unit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="48" />
+          <folding>
+            <element signature="e#28#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
