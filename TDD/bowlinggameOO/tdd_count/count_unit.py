@@ -8,6 +8,13 @@ class count_unit(unittest.TestCase):
         value = "11|11|11|11|11|11|11|11|11|11||"
         self.assertEqual(20, who_object.result_function(value))
 
+        value = "11|--|--|--|--|--|--|--|--|--||"
+        self.assertEqual(2, who_object.result_function(value))
+
+        value = "1/|--|--|--|--|--|--|--|--|--||"
+        self.assertEqual(10, who_object.result_function(value))
+
+
     def test_kevindi(self):
         who_kevindi = data_everyone.kevindi.kevindi()
         self.public_same(who_kevindi)

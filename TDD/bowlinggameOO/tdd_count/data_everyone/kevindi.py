@@ -17,13 +17,25 @@ class BowlingGame:
 
 class kevindi(object):
     SIG_FRAME = "|"
+    SIG_MISS = "-"
     bowlinggame = BowlingGame()
+
+    def isMISSROLL(self,value):
+        if value == self.SIG_MISS:
+            return True
+        else:
+            return False
 
     def result_function(self, value):
         self.bowlinggame.game_start()
         for i in range(len(value)):
             if value[i] != self.SIG_FRAME:
-                self.bowlinggame.roll(int(value[i]))
+                if self.isMISSROLL(value[i]):
+                    self.bowlinggame.roll(0)
+                else:
+                    self.bowlinggame.roll(int(value[i]))
+            else:
+                continue
 
         score = self.bowlinggame.get_score()
         return score;
@@ -32,7 +44,7 @@ class kevindi(object):
 if __name__ == '__main__':
     tmp_prime = kevindi()
 
-    value = "11|11|11|11|11|11|11|11|11|11||"
+    value = "11|--|--|--|--|--|--|--|--|--||"
     print(tmp_prime.result_function(value))
 
 
