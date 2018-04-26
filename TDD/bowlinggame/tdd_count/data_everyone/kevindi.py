@@ -75,9 +75,12 @@ class kevindi(object):
         # print("replaced -",game_score)
         # bonus_frame = game_score[game_score.rfind(self.SIG_FRAME):]
         self.game_frames = game_score.split("|")
+        print("test",len(self.game_frames),self.game_frames)
         del self.game_frames[10]
+        print("test",len(self.game_frames),self.game_frames)
         if not self.game_frames[10]:  # review bonus score
             self.game_frames[10] = "00"
+        print("test", len(self.game_frames), self.game_frames)
         score = 0
         for i in range(10): # not have bonus frame
             # print("result_function,frame=",i,"score=",score)
@@ -100,7 +103,7 @@ class kevindi(object):
 if __name__ == '__main__':
     tmp_prime = kevindi()
 
-    value = "22|22|22|22|22|22|22|22|22|X||2/"
+    value = "22|22|22|22|22|22|22|22|22|X||"
     print(tmp_prime.result_function(value))
 
 

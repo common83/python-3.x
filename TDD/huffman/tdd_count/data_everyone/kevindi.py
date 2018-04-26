@@ -107,12 +107,15 @@ class kevindi(object):
             return 1
 
         alpha_count = {}
+
         hufman = Huffman()
+
         for i in range(len(para_str_list)):
             if para_str_list[i] in alpha_count:
                 alpha_count[para_str_list[i]] += 1
             else:
                 alpha_count[para_str_list[i]] = 1
+
         for item, value in alpha_count.items():
             hufman.addItem(item,value)
 

@@ -8,6 +8,9 @@ class count_unit(unittest.TestCase):
         param_value = [10, 5, 1, 2, 3, 6, 7, 9, 11, 22, 44, 50]
         self.assertEqual(9, who_object.result_function(param_value))
 
+        param_value = [6, 1, 1, 2, 3, 4, 5, 6]
+        self.assertEqual(9, who_object.result_function(param_value))
+
     def test_kevindi(self):
         who_kevindi = data_everyone.kevindi.kevindi()
         self.public_same(who_kevindi)
