@@ -146,15 +146,34 @@ def get_depth_by_index(tree, index):
     # print(tree[index], "=", max(d_left, d_right) + 1)
     return max(d_left, d_right) + 1
 
-if __name__ == "__main__":
-    a = [n for n in range(2**4-1)]
-    print(a)
 
-    show_list_tree(a)
-    print("dept")
-    for i in range(20):
-        print(i,"=",get_depth_by_index(a,i))
-    # binary_tree(a)
-    # b = int(math.log(a,2))
-    # print(b)
-    # # test_join()
+# a = [n for n in range(2**4-1)]
+# print(a)
+
+# show_list_tree(a)
+# print("dept")
+# for i in range(20):
+#     print(i,"=",get_depth_by_index(a,i))
+
+
+
+# binary_tree(a)
+# b = int(math.log(a,2))
+# print(b)
+# # test_join()
+
+# 数组合并
+list_a = [1,2,3,4]
+list_b = [4,5,6,7]
+list_c = list_a + list_b
+print("merge",list_c)
+
+list_a.extend(list_b)
+print("merge", list_a)
+
+list_a.append(list_b)
+print("merge", list_a)
+
+list_a += list_b
+print("merge",list_a)
+
