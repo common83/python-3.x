@@ -1,0 +1,43 @@
+{% extends 'service_base.html' %}
+{% import 'sample_macro.html' as ui %}
+
+{% block title %}{{ title_name }}{% endblock %}
+
+
+<!--网页内容-->
+{% block content %}
+    <!--网页内容：导航栏-->
+    {% block navigate %}
+        {% set links = [
+            ('k home',url_for('.home')),
+            ('k service',url_for('.service')),
+            ('k about',url_for('.about')),
+        ] %}
+
+        <nav>
+            {% for label,link in links %}
+                {% if not loop.first %}|{% endif %}
+                <a href="{% if link is current_link %}#
+                {% else %}
+                {{ link }}
+                {% endif %}
+                ">{{ label }}</a>
+            {% endfor %}
+        </nav>
+    {% endblock %}
+
+    <!--网页内容：数据库结果显示-->
+    <p>{{ self.title() }}</p>
+    {% block mongo_test %}
+        {% for users in onlines_users %}
+            <li>{{ users.username }}, {{ users.password }}</li>
+        {% endfor %}
+    {% endblock %}
+
+{% endblock content %}
+
+
+{% block footer %}
+    <hr>
+    {{ super() }}
+{% endblock %}

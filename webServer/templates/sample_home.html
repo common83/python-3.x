@@ -1,0 +1,38 @@
+{% extends 'home_base.html' %}
+{% import 'sample_macro.html' as ui %}
+{% import 'includes/navigate_base.html' as navigate %}
+
+{% block title %}{{ title_name }}{% endblock %}
+
+{% block content %}
+    <!--导航栏-->
+    {% block navigate %}
+        {% set links = [
+            ('k home',url_for('.home')),
+            ('k service',url_for('.service')),
+            ('k about',url_for('.about')),
+        ] %}
+
+        <nav>
+            {% for label,link in links %}
+                {% if not loop.first %}|{% endif %}
+                <a href="{% if link is current_link %}#
+                {% else %}
+                {{ link }}
+                {% endif %}
+                ">{{ label }}</a>
+            {% endfor %}
+        </nav>
+    {% endblock %}
+
+
+    <p>{{ self.title() }}</p>
+    {{ ui.input('username') }}
+    {{ ui.input('password',type='password') }}
+    {{ ui.input('Hello',type='text') }}
+{% endblock content %}
+
+{% block footer %}
+    <hr>
+    {{ super() }}
+{% endblock %}

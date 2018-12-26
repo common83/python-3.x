@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TVS Test Home</title>
+</head>
+
+<head>
+    {% block head %}
+        {% include 'includes/sample_head.html' %}
+    {% endblock %}
+</head>
+<body>
+
+    <header>{% block header %}{% endblock %}</header>
+
+
+    <div>{% block content %}<p>hello</p>{% endblock %}</div>
+    <div>{%block mongo_test%}<p>mongo test</p>{% endblock%}</div>
+
+    <form method="POST">
+        <input type="text" placeholder="username" name="username" value="swiper">
+        <br>
+        <input type="password" placeholder="password"  name="password" value="123456">
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="reset">
+    </form>
+
+    {% for item in items %}
+        <li>{% block loop_item scoped %}{{ item }}{% endblock %}</li>
+    {% endfor %}
+
+    <form method="POST">
+        <input type="text" placeholder="username" name="username1" >
+        <br>
+        <input type="password" placeholder="password"  name="password1">
+        <br>
+        <input type="submit" value="Update">
+        <input type="reset" value="reset">
+    </form>
+
+    <footer>
+        {% block footer %}
+        <p>Posted:kevindi</p>
+            <p>Contact with:<a href="kevindi@tencent.com">kevindi@tencent.com</a> </p>
+        {% endblock %}
+    </footer>
+</body>
+</html>

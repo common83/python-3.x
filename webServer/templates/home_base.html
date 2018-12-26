@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block head %}
+        {% include 'includes/sample_head.html' %}
+    {% endblock %}
+</head>
+<body>
+    <header>{% block header %}{% endblock %}</header>
+    <div>{% block content %}<p>hello</p>{% endblock %}</div>
+
+    {% for item in items %}
+        <li>{% block loop_item scoped %}{{ item }}{% endblock %}</li>
+    {% endfor %}
+
+
+    <form name="form2" method="POST">
+
+        <input type="text" placeholder="username" name="username2">
+        <br>
+        <input type="password" placeholder="password" name="passwords">
+        <br>
+        <input type="submit" value="Submit2">
+        <input type="reset" value="reset2">
+    </form>
+
+
+    <footer>
+        {% block footer %}
+        <p>Posted:Bikmin</p>
+            <p>Contact with:<a href="someone@example.com">someone@example.com</a> </p>
+        {% endblock %}
+    </footer>
+</body>
+</html>

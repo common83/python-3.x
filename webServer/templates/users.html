@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PyMongo Sample</title>
+</head>
+<body>
+<h1>Users:</h1>
+<ul>
+{% for user in users %}
+    <li>{{ user.name }}, {{ user.age }}</li>
+    <ul>
+    {% for score in user.scores %}
+        <li>{{ score.course }}, {{ score.score }}</li>
+    {% endfor %}
+    </ul>
+{% endfor %}
+</ul>
+</body>
+</html>
